@@ -1,3 +1,72 @@
-<a href="{{ '/files/MarcoRando_CurriculumVitae.pdf' | relative_url }}" download>
-    Download CV
-</a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <img src="{{ '/images/profile.jpeg' | relative_url }}"
+             alt="{{ site.author.name }}"
+             class="profile-image">
+
+        <h1>{{ site.author.name }}</h1>
+
+        <p class="position">
+            Postdoctoral Researcher<br>
+            Department of Mathematics<br>
+            Université Côte d'Azur, Inria, CNRS, LJAD
+        </p>
+
+        <p>📍 Nice, France</p>
+
+        <p>
+            <a href="mailto:{{ site.author.email }}">
+                ✉ Email
+            </a>
+        </p>
+
+        <p>
+            <a href="{{ '/files/MarcoRando_CurriculumVitae.pdf' | relative_url }}"
+               target="_blank">
+                📄 Download CV
+            </a>
+        </p>
+
+        <p>
+            <a href="https://scholar.google.com/citations?user=5JrwG0sAAAAJ"
+               target="_blank">
+                Google Scholar
+            </a>
+        </p>
+
+        <p>
+            <a href="https://github.com/MarcoRando"
+               target="_blank">
+                GitHub
+            </a>
+        </p>
+
+    </aside>
+
+
+    <main class="content">
+
+        {{ content }}
+
+    </main>
+
+</div>
+
+</body>
+</html>

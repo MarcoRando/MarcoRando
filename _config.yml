@@ -1,10 +1,12 @@
 title: "Marco Rando"
+description: "Academic website of Marco Rando"
+url: "https://marcorando.github.io"
 
 author:
   name: "Marco Rando"
-  position: "Postdoctoral Researcher"
-  affiliation: "University Name"
-  location: "France"
   email: "marco.rando0396@gmail.com"
-  google_scholar: "https://scholar.google.com/citations?user=5JrwG0sAAAAJ&hl=it&authuser=2"
-  github: "https://github.com/MarcoRando"
+  affiliation: "Université Côte d'Azur, Inria, CNRS, LJAD"
+
+markdown: kramdown
+theme: null
+plugins: []
