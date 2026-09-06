@@ -22,6 +22,10 @@ body {
     border-right: 1px solid #2f2f2f;
 }
 
+.sidebar-links {
+    margin-top: 25px;
+}
+
 .content {
     flex: 1;
     max-width: 900px;
