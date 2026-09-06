@@ -7,19 +7,20 @@
     <h1>{{ site.author.name }}</h1>
 
     <p class="position">
-        Postdoctoral Researcher<br>
-        Department of Mathematics<br>
-        Université Côte d'Azur, Inria, CNRS, LJAD
+        {{ site.author.position }}<br>
+        {{ site.author.department }}<br>
+        {{ site.author.affiliation }}
     </p>
 
     <p>
-        <a href="https://www.google.com/maps/search/?api=1&query=Nice%2C%20France"
+        <a href="https://www.google.com/maps/search/?api=1&query={{ site.author.location | uri_escape }}"
            target="_blank"
            rel="noopener noreferrer">
             <i class="fa-solid fa-location-dot"></i>
-            Nice, France
+            {{ site.author.location }}
         </a>
     </p>
+
     <p>
         <a href="mailto:{{ site.author.email }}">
             <i class="fa-solid fa-envelope"></i>
@@ -37,7 +38,7 @@
     </p>
 
     <p>
-        <a href="https://scholar.google.com/citations?user=5JrwG0sAAAAJ"
+        <a href="{{ site.links.scholar }}"
            target="_blank"
            rel="noopener noreferrer">
             <i class="fa-solid fa-graduation-cap"></i>
@@ -46,16 +47,16 @@
     </p>
 
     <p>
-        <a href="https://github.com/MarcoRando"
+        <a href="{{ site.links.github }}"
            target="_blank"
            rel="noopener noreferrer">
             <i class="fa-brands fa-github"></i>
             GitHub
         </a>
     </p>
-    
+
     <p>
-        <a href="https://www.linkedin.com/in/marco-rando-8085b6141"
+        <a href="{{ site.links.linkedin }}"
            target="_blank"
            rel="noopener noreferrer">
             <i class="fa-brands fa-linkedin"></i>
@@ -64,7 +65,7 @@
     </p>
 
     <p>
-        <a href="https://orcid.org/0009-0008-3839-1429"
+        <a href="{{ site.links.orcid }}"
            target="_blank"
            rel="noopener noreferrer">
             <i class="fa-brands fa-orcid"></i>

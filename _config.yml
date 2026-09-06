@@ -5,7 +5,18 @@ url: "https://marcorando.github.io"
 author:
   name: "Marco Rando"
   email: "marco.rando0396@gmail.com"
+  position: "Postdoctoral Researcher"
+  department: "Department of Mathematics"
   affiliation: "Université Côte d'Azur, Inria, CNRS, LJAD"
+  location: "Nice, France"
+
+links:
+  scholar: "https://scholar.google.com/citations?user=5JrwG0sAAAAJ"
+  github: "https://github.com/MarcoRando"
+  linkedin: "https://www.linkedin.com/in/marco-rando-8085b6141"
+  orcid: "https://orcid.org/0009-0008-3839-1429"
+
+
 
 markdown: kramdown
 theme: null
