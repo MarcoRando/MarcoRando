@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #111;
-    color: #eee;
+    color: #e6e6e6;
 }
 
 .container {
@@ -19,13 +19,17 @@ body {
     width: 300px;
     flex-shrink: 0;
     padding: 40px 30px;
-    border-right: 1px solid #333;
+    border-right: 1px solid #2f2f2f;
 }
 
 .content {
     flex: 1;
     max-width: 900px;
     padding: 50px;
+}
+
+.position {
+    color: #aaaaaa;
 }
 
 .profile-image {
@@ -36,12 +40,35 @@ body {
 }
 
 a {
-    color: #8ab4f8;
+    color: #7aa2d8;
     text-decoration: none;
 }
 
 a:hover {
+    color: #9bbbe8;
     text-decoration: underline;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.6rem;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    color: #d0d0d0;
+}
+
+p {
+    line-height: 1.7;
 }
 
 @media (max-width: 768px) {
