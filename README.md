@@ -6,6 +6,7 @@ My research focuses on black-box and zeroth-order optimization, i.e., designing,
 
 I also work on applying machine learning techniques to various domains, including reinforcement learning for navigation, machine learning for biology, high-energy physics, and robotics. Additionally, I investigate adversarial machine learning across different applications
 
+You can contact me by e-mail at marco[dot]rando0396[at]gmail[dot]com
 
 📚 [Google Scholar](https://scholar.google.com/citations?user=5JrwG0sAAAAJ)  
 🔗 [ORCID](https://orcid.org/0009-0008-3839-1429)  
