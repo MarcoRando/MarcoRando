@@ -8,6 +8,10 @@
     <title>{{ page.title }} | {{ site.title }}</title>
 
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
@@ -28,31 +32,41 @@
             Université Côte d'Azur, Inria, CNRS, LJAD
         </p>
 
-        <p>📍 Nice, France</p>
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Nice, France
+        </p>
 
         <p>
             <a href="mailto:{{ site.author.email }}">
-                ✉ Email
+                <i class="fa-solid fa-envelope"></i>
+                Email
             </a>
         </p>
 
         <p>
             <a href="{{ '/files/MarcoRando_CurriculumVitae.pdf' | relative_url }}"
-               target="_blank">
-                📄 Download CV
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-solid fa-file-pdf"></i>
+                Download CV
             </a>
         </p>
 
         <p>
             <a href="https://scholar.google.com/citations?user=5JrwG0sAAAAJ"
-               target="_blank">
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-solid fa-graduation-cap"></i>
                 Google Scholar
             </a>
         </p>
 
         <p>
             <a href="https://github.com/MarcoRando"
-               target="_blank">
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
                 GitHub
             </a>
         </p>
